@@ -103,7 +103,7 @@ export default function Banner() {
     </div>
   </div>
 </div>
-<div className="container-fluid bg-primary facts py-5 mb-5">
+{/* <div className="container-fluid bg-primary facts py-5 mb-5">
   <div className="container py-5">
     <div className="row gx-5 gy-4">
       <div className="col-lg-3 col-md-6">
@@ -172,7 +172,7 @@ export default function Banner() {
       </div>
     </div>
   </div>
-</div>
+</div> */}
 <div className="container-fluid bg-primary feature py-5 pb-lg-0 my-5">
   <div className="container py-5 pb-lg-0">
     <div className="mx-auto text-center mb-3 pb-2" style={{ maxWidth: 500 }}>
