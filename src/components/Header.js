@@ -5,28 +5,33 @@ export default function Header() {
   return (
     <div>
        <div className="container-fluid px-5 d-none d-lg-block">
-        <div className="row gx-5 py-3 align-items-center">
+        <div className="row gx-5 align-items-center">
             <div className="col-lg-3">
                 <div className="d-flex align-items-center justify-content-start">
-                    <i className="bi bi-phone-vibrate fs-1 text-primary me-2"></i>
-                    <h2 className="mb-0">+012 345 6789</h2>
+                    <img src="img/Logo.png" alt="" style={{height:"100px", width:"100px"}}/>
                 </div>
             </div>
             <div className="col-lg-6">
                 <div className="d-flex align-items-center justify-content-center">
                     <a href="index.html" className="navbar-brand ms-lg-5">
-                        <h1 className="m-0 display-4 text-primary"><span className="text-secondary">Farm</span>Fresh</h1>
+                        <h2 className="m-0 display-4 text-primary">Marvel Agro & <span className="text-secondary">Dairy Farm</span></h2>
                     </a>
                 </div>
             </div>
             <div className="col-lg-3">
+                <div className="d-flex align-items-center justify-content-start">
+                    <i className="bi bi-phone-vibrate fs-1 text-primary me-2"></i>
+                    <h4 className="mb-0">7984493532</h4>
+                </div>
+            </div>
+            {/* <div className="col-lg-3">
                 <div className="d-flex align-items-center justify-content-end">
                     <a className="btn btn-primary btn-square rounded-circle me-2" href="/"><i className="fab fa-twitter"></i></a>
                     <a className="btn btn-primary btn-square rounded-circle me-2" href="/"><i className="fab fa-facebook-f"></i></a>
                     <a className="btn btn-primary btn-square rounded-circle me-2" href="/"><i className="fab fa-linkedin-in"></i></a>
                     <a className="btn btn-primary btn-square rounded-circle" href="/"><i className="fab fa-instagram"></i></a>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
 

@@ -41,9 +41,8 @@ export default function About() {
                 <h4>
                   "Banshi Farm", Lakhabaval, Nr. Shivalik Shine Party Plot
                 </h4>
-                <br />
-                <h6 className="text-primary text-uppercase">History :</h6>
               </div>
+                <h6 className="text-primary text-uppercase">History :</h6>
               <p className="mb-4">
                 The foundation was laid down in 2021 with intension to provide
                 pure and natural products at a door steps. Scarcity of 100% pure
@@ -55,7 +54,7 @@ export default function About() {
                 of herds. Pesticides & "JIVAMRUT" Phosphate based fertilizers.
               </p>
               <h6 className="text-primary text-uppercase">
-                Industry Experience::
+                Industry Experience :
               </h6>
               <p className="mb-4">
                 4 partners have diversified experience in their own fields but

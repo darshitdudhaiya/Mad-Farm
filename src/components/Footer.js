@@ -12,15 +12,15 @@ export default function Footer() {
                             <h4 className="text-white mb-4">Get In Touch</h4>
                             <div className="d-flex mb-2">
                                 <i className="bi bi-geo-alt text-white me-2"></i>
-                                <p className="text-white mb-0">123 Street, New York, USA</p>
+                                <p className="text-white mb-0">"Banshi Farm", Nr. Shivalik Shine Party Plot, Lakhabaval</p>
                             </div>
                             <div className="d-flex mb-2">
                                 <i className="bi bi-envelope-open text-white me-2"></i>
-                                <p className="text-white mb-0">info@example.com</p>
+                                <p className="text-white mb-0">madfarm2020@gmail.com</p>
                             </div>
                             <div className="d-flex mb-2">
                                 <i className="bi bi-telephone text-white me-2"></i>
-                                <p className="text-white mb-0">+012 345 67890</p>
+                                <p className="text-white mb-0">9426913150</p>
                             </div>
                             <div className="d-flex mt-4">
                                 <a className="btn btn-secondary btn-square rounded-circle me-2" href="/"><i className="fab fa-twitter"></i></a>
@@ -29,8 +29,8 @@ export default function Footer() {
                                 <a className="btn btn-secondary btn-square rounded-circle" href="/"><i className="fab fa-instagram"></i></a>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
-                            <h4 className="text-white mb-4">Quick Links</h4>
+                        <div className="col-lg-2 col-md-12 pt-0 pt-lg-5 mb-5">
+                            {/* <h4 className="text-white mb-4">Quick Links</h4>
                             <div className="d-flex flex-column justify-content-start">
                                 <a className="text-white mb-2" href="/"><i className="bi bi-arrow-right text-white me-2"></i>Home</a>
                                 <a className="text-white mb-2" href="/"><i className="bi bi-arrow-right text-white me-2"></i>About Us</a>
@@ -38,7 +38,7 @@ export default function Footer() {
                                 <a className="text-white mb-2" href="/"><i className="bi bi-arrow-right text-white me-2"></i>Meet The Team</a>
                                 <a className="text-white mb-2" href="/"><i className="bi bi-arrow-right text-white me-2"></i>Latest Blog</a>
                                 <a className="text-white" href="/"><i className="bi bi-arrow-right text-white me-2"></i>Contact Us</a>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
                             <h4 className="text-white mb-4">Popular Links</h4>
