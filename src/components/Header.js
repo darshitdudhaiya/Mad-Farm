@@ -36,13 +36,17 @@ export default function Header() {
     </div>
 
 
-    <nav className="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-5">
-        <a href="index.html" className="navbar-brand d-flex d-lg-none">
-            <h1 className="m-0 display-4 text-secondary"><span className="text-white">Farm</span>Fresh</h1>
-        </a>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span className="navbar-toggler-icon"></span>
-        </button>
+    <nav className="navbar navbar-expand-lg bg-primary navbar-dark shadow-sm py-1 py-lg-0 px-3 px-lg-5">
+                <a href="index.html" className="navbar-brand d-flex d-lg-none align-items-center">
+                {/* <h1 className="m-0 display-4 text-secondary"><span className="text-white">MA</span>DF</h1> */}
+                <img src="img/Logo.png" alt="" style={{height:"40px", width:"40px"}}/>
+                </a>
+                <h3 className="navbar-brand d-flex d-lg-none">
+                    <span className="h3 m-auto text-white">MADF</span>
+                </h3>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span className="navbar-toggler-icon"></span>
+            </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav mx-auto py-0">
                 <Link to="/" className="nav-item nav-link active">Home</Link>
@@ -52,7 +56,7 @@ export default function Header() {
                 <Link to="/Services" className="nav-item nav-link">Services</Link>
                 {/* <Link to="/Features" className="nav-item nav-link">Features</Link> */}
                 <Link to="/Products" className="nav-item nav-link">Products</Link>
-                <Link to="/Testimonial" className="nav-item nav-link">Testimonial</Link>
+                {/* <Link to="/Testimonial" className="nav-item nav-link">Testimonial</Link> */}
                 {/* <Link to="/Team" className="nav-item nav-link">Team</Link> */}
                 {/* <Link to="/Blog" className="nav-item nav-link">Blog</Link> */}
             </div>
