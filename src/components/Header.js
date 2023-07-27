@@ -50,15 +50,18 @@ export default function Header() {
         <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav mx-auto py-0">
                 <Link to="/" className="nav-item nav-link active">Home</Link>
-                {/* <Link to="/Banner" className="nav-item nav-link">Banner</Link> */}
                 <Link to="/About" className="nav-item nav-link">About</Link>
-                {/* <Link to="/Facts" className="nav-item nav-link">Facts</Link> */}
                 <Link to="/Services" className="nav-item nav-link">Services</Link>
-                {/* <Link to="/Features" className="nav-item nav-link">Features</Link> */}
-                <Link to="/Products" className="nav-item nav-link">Products</Link>
-                {/* <Link to="/Testimonial" className="nav-item nav-link">Testimonial</Link> */}
-                {/* <Link to="/Team" className="nav-item nav-link">Team</Link> */}
-                {/* <Link to="/Blog" className="nav-item nav-link">Blog</Link> */}
+                <div className="nav-item dropdown">
+                    <Link to="/Product" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Product</Link>
+                    <div className="dropdown-menu m-0">
+                        <Link to="/MilkProduct" className="dropdown-item">Milk Product</Link>
+                        <Link to="/CowProduct" className="dropdown-item">Cow Product</Link>
+                        <Link to="/FarmProduct" className="dropdown-item">Farm Product</Link>
+                        <Link to="/AllProduct" className="dropdown-item">All Product</Link>
+                    </div>
+                </div>
+                <Link to="/Gallery" className="nav-item nav-link">Gallery</Link>
             </div>
         </div>
     </nav>

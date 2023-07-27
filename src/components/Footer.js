@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 export default function Footer() {
   return (
@@ -43,12 +45,11 @@ export default function Footer() {
                         <div className="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
                             <h4 className="text-white mb-4">Popular Links</h4>
                             <div className="d-flex flex-column justify-content-start">
-                                <a className="text-white mb-2" href="/"><i className="bi bi-arrow-right text-white me-2"></i>Home</a>
-                                <a className="text-white mb-2" href="/"><i className="bi bi-arrow-right text-white me-2"></i>About Us</a>
-                                <a className="text-white mb-2" href="/"><i className="bi bi-arrow-right text-white me-2"></i>Our Services</a>
-                                <a className="text-white mb-2" href="/"><i className="bi bi-arrow-right text-white me-2"></i>Meet The Team</a>
-                                <a className="text-white mb-2" href="/"><i className="bi bi-arrow-right text-white me-2"></i>Latest Blog</a>
-                                <a className="text-white" href="/"><i className="bi bi-arrow-right text-white me-2"></i>Contact Us</a>
+                                <Link className="text-white mb-2" to="/"><i className="bi bi-arrow-right text-white me-2"></i>Home</Link>
+                                <Link className="text-white mb-2" to="/About"><i className="bi bi-arrow-right text-white me-2"></i>About Us</Link>
+                                <Link className="text-white mb-2" to="/Services"><i className="bi bi-arrow-right text-white me-2"></i>Our Services</Link>
+                                <Link className="text-white" to="/AllProduct"><i className="bi bi-arrow-right text-white me-2"></i>Our Product</Link>
+                                <Link className="text-white" to="/Gallery"><i className="bi bi-arrow-right text-white me-2"></i>Gallery</Link>
                             </div>
                         </div>
                     </div>

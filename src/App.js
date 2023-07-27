@@ -10,20 +10,6 @@ function App() {
     <Header />
       <Outlet />
     <Footer />
-
-
-     {/* <Header />
-     <Carousel />
-     <Banner />
-     <About />
-     <Fatcs />
-     <Services />
-     <Features />
-     <Products />
-     <Testimonial />
-     <Team />
-     <Blog />
-     <Footer /> */}
     </>
   );
 }

@@ -2,17 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-// import Blog from "./components/Blog";
-// import Team from "./components/Team";
-import Testimonial from "./components/Testimonial";
-import Products from "./components/Products";
-// import Features from "./components/Features";
+import Products from "./components/AllProducts";
 import Services from "./components/Services";
-// import Fatcs from "./components/Fatcs";
-// import Banner from "./components/Banner";
 import About from "./components/About";
-// import Carousel from "./components/Carousel";
 import Banner from "./components/Banner";
+import MilkProduct from "./components/MilkProduct";
+import CowProduct from "./components/CowProduct";
+import FarmProduct from "./components/FarmProduct";
+import AllProducts from "./components/AllProducts";
+import Gallery from "./components/Gallery";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -22,16 +20,15 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<App />}>
-          <Route index  element={<Banner />} />
-          {/* <Route path="/Banner" element= {< Banner/>} /> */}
+          <Route index element={<Banner />} />
           <Route path="/About" element={<About />} />
-          {/* <Route path="/Facts" element= {< Fatcs/>} /> */}
           <Route path="/Services" element={<Services />} />
-          {/* <Route path="/Features" element= {< Features/>} /> */}
           <Route path="/Products" element={<Products />} />
-          <Route path="/Testimonial" element={<Testimonial />} />
-          {/* <Route path="/Team" element= {< Team/>} /> */}
-          {/* <Route path="/Blog" element= {< Blog/>} /> */}
+          <Route path="/MilkProduct" element={<MilkProduct />} />
+          <Route path="/CowProduct" element={<CowProduct />} />
+          <Route path="/FarmProduct" element={<FarmProduct />} />
+          <Route path="/AllProduct" element={<AllProducts />} />
+          <Route path="/Gallery" element={< Gallery/>} />
         </Route>
       </Routes>
     </BrowserRouter>
