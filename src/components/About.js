@@ -9,8 +9,8 @@ export default function About() {
             <div className="col-lg-6 mb-5 mb-lg-0">
               <div className="d-flex border border-5 border-primary">
                 <img
-                  className="mt-auto mx-auto"
-                  src="img/about.png"
+                  className="mt-auto mx-auto w-100"
+                  src="img/about.jpg"
                   alt="about"
                 />
               </div>

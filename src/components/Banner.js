@@ -10,10 +10,11 @@ export default function Banner() {
           data-bs-ride="carousel"
         >
           <div className="carousel-inner">
-            <div className="carousel-item active">
+            <div className="carousel-item active h-100">
               <img
                 className="w-100"
-                src="img/carousel-1.jpg"
+                style={{height:"500px"}}
+                src="img/banner1.jpeg"
                 alt="carousel-1"
               />
               <div className="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center">
@@ -34,7 +35,8 @@ export default function Banner() {
             <div className="carousel-item">
               <img
                 className="w-100"
-                src="img/carousel-2.jpg"
+                style={{height:"500px"}}
+                src="img/banner2.jpeg"
                 alt="carousel-2"
               />
               <div className="carousel-caption top-0 bottom-0 start-0 end-0 d-flex flex-column align-items-center justify-content-center">

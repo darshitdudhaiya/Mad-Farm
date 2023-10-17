@@ -22,29 +22,29 @@ export default function CowProduct() {
                   alt=""
                 />
                 <h6 className="mb-3">Cow Dung Dhoop Stick</h6>
-                <h5 className="text-primary mb-0">₹50 / 1Packate</h5>
-                <div className="btn-action d-flex justify-content-center">
+                
+                {/* <div className="btn-action d-flex justify-content-center">
                   <a className="btn bg-primary py-2 px-3" href="/">
                     <i className="bi bi-cart text-white" />
                   </a>
                   <a className="btn bg-secondary py-2 px-3" href="/">
                     <i className="bi bi-eye text-white" />
                   </a>
-                </div>
+                </div> */}
               </div>
 
               <div className="col-lg-3 product-item position-relative bg-white d-flex flex-column text-center">
                 <img className="img-fluid mb-4" src="img/cow-dung.png" alt="" />
                 <h6 className="mb-3">Cow Dung</h6>
-                <h5 className="text-primary mb-0">₹5 / 1Piece.</h5>
-                <div className="btn-action d-flex justify-content-center">
+                
+                {/* <div className="btn-action d-flex justify-content-center">
                   <a className="btn bg-primary py-2 px-3" href="/">
                     <i className="bi bi-cart text-white" />
                   </a>
                   <a className="btn bg-secondary py-2 px-3" href="/">
                     <i className="bi bi-eye text-white" />
                   </a>
-                </div>
+                </div> */}
               </div>
 
               <div className="col-lg-3 product-item position-relative bg-white d-flex flex-column text-center">
@@ -54,15 +54,15 @@ export default function CowProduct() {
                   alt=""
                 />
                 <h6 className="mb-3">Cow Dung Product</h6>
-                <h5 className="text-primary mb-0">₹50 / 1Piece.</h5>
-                <div className="btn-action d-flex justify-content-center">
+                
+                {/* <div className="btn-action d-flex justify-content-center">
                   <a className="btn bg-primary py-2 px-3" href="/">
                     <i className="bi bi-cart text-white" />
                   </a>
                   <a className="btn bg-secondary py-2 px-3" href="/">
                     <i className="bi bi-eye text-white" />
                   </a>
-                </div>
+                </div> */}
               </div>
 
               <div className="col-lg-3 product-item position-relative bg-white d-flex flex-column text-center">
@@ -72,15 +72,15 @@ export default function CowProduct() {
                   alt=""
                 />
                 <h6 className="mb-3">Cow Dung Product</h6>
-                <h5 className="text-primary mb-0">₹20 / 1Packate.</h5>
-                <div className="btn-action d-flex justify-content-center">
+                
+                {/* <div className="btn-action d-flex justify-content-center">
                   <a className="btn bg-primary py-2 px-3" href="/">
                     <i className="bi bi-cart text-white" />
                   </a>
                   <a className="btn bg-secondary py-2 px-3" href="/">
                     <i className="bi bi-eye text-white" />
                   </a>
-                </div>
+                </div> */}
               </div>
 
               <div className="col-lg-3 product-item position-relative bg-white d-flex flex-column text-center">
@@ -90,15 +90,15 @@ export default function CowProduct() {
                   alt=""
                 />
                 <h6 className="mb-3">Cow Dung Product</h6>
-                <h5 className="text-primary mb-0">₹20 / 1Packate.</h5>
-                <div className="btn-action d-flex justify-content-center">
+                
+                {/* <div className="btn-action d-flex justify-content-center">
                   <a className="btn bg-primary py-2 px-3" href="/">
                     <i className="bi bi-cart text-white" />
                   </a>
                   <a className="btn bg-secondary py-2 px-3" href="/">
                     <i className="bi bi-eye text-white" />
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
             </div>
