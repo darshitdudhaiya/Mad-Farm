@@ -13,12 +13,11 @@ export default function AllProducts() {
             <h1 className="display-5">Our Fresh & Organic Products</h1>
           </div>
           <div className="container-img">
-            
             <div className="row">
               <div className="col-lg-3 product-item position-relative bg-white d-flex flex-column text-center">
                 <img className="img-fluid mb-4" src="img/milk.png" alt="" />
                 <h6 className="mb-3">Cow Milk</h6>
-                
+
                 {/* <div className="btn-action d-flex justify-content-center">
                   <a className="btn bg-primary py-2 px-3" href="/">
                     <i className="bi bi-cart text-white" />
@@ -32,7 +31,7 @@ export default function AllProducts() {
               <div className="col-lg-3 product-item position-relative bg-white d-flex flex-column text-center">
                 <img className="img-fluid mb-4" src="img/ghee.png" alt="" />
                 <h6 className="mb-3">Cow Ghee</h6>
-                
+
                 {/* <div className="btn-action d-flex justify-content-center">
                   <a className="btn bg-primary py-2 px-3" href="/">
                     <i className="bi bi-cart text-white" />
@@ -50,7 +49,7 @@ export default function AllProducts() {
                   alt=""
                 />
                 <h6 className="mb-3">Cow Butter Milk</h6>
-                
+
                 {/* <div className="btn-action d-flex justify-content-center">
                   <a className="btn bg-primary py-2 px-3" href="/">
                     <i className="bi bi-cart text-white" />
@@ -64,7 +63,7 @@ export default function AllProducts() {
               <div className="col-lg-3 product-item position-relative bg-white d-flex flex-column text-center">
                 <img className="img-fluid mb-4" src="img/butter.png" alt="" />
                 <h6 className="mb-3">Cow Butter</h6>
-                
+
                 {/* <div className="btn-action d-flex justify-content-center">
                   <a className="btn bg-primary py-2 px-3" href="/">
                     <i className="bi bi-cart text-white" />
@@ -79,7 +78,7 @@ export default function AllProducts() {
               <div className="col-lg-3 product-item position-relative bg-white d-flex flex-column text-center">
                 <img className="img-fluid mb-4" src="img/curd.png" alt="" />
                 <h6 className="mb-3">Cow Curd</h6>
-                
+
                 {/* <div className="btn-action d-flex justify-content-center">
                   <a className="btn bg-primary py-2 px-3" href="/">
                     <i className="bi bi-cart text-white" />
@@ -97,7 +96,7 @@ export default function AllProducts() {
                   alt=""
                 />
                 <h6 className="mb-3">Cow Dung Dhoop Stick</h6>
-                
+
                 {/* <div className="btn-action d-flex justify-content-center">
                   <a className="btn bg-primary py-2 px-3" href="/">
                     <i className="bi bi-cart text-white" />
@@ -111,7 +110,7 @@ export default function AllProducts() {
               <div className="col-lg-3 product-item position-relative bg-white d-flex flex-column text-center">
                 <img className="img-fluid mb-4" src="img/cow-dung.png" alt="" />
                 <h6 className="mb-3">Cow Dung</h6>
-                
+
                 {/* <div className="btn-action d-flex justify-content-center">
                   <a className="btn bg-primary py-2 px-3" href="/">
                     <i className="bi bi-cart text-white" />
@@ -129,7 +128,7 @@ export default function AllProducts() {
                   alt=""
                 />
                 <h6 className="mb-3">Cow Dung Product</h6>
-                
+
                 {/* <div className="btn-action d-flex justify-content-center">
                   <a className="btn bg-primary py-2 px-3" href="/">
                     <i className="bi bi-cart text-white" />
@@ -149,7 +148,7 @@ export default function AllProducts() {
                   alt=""
                 />
                 <h6 className="mb-3">Cow Dung Product</h6>
-                
+
                 {/* <div className="btn-action d-flex justify-content-center">
                   <a className="btn bg-primary py-2 px-3" href="/">
                     <i className="bi bi-cart text-white" />
@@ -167,7 +166,7 @@ export default function AllProducts() {
                   alt=""
                 />
                 <h6 className="mb-3">Cow Dung Product</h6>
-                
+
                 {/* <div className="btn-action d-flex justify-content-center">
                   <a className="btn bg-primary py-2 px-3" href="/">
                     <i className="bi bi-cart text-white" />
@@ -185,7 +184,7 @@ export default function AllProducts() {
                   alt=""
                 />
                 <h6 className="mb-3">vermicompost-organic-fertilizer</h6>
-                
+
                 {/* <div className="btn-action d-flex justify-content-center">
                   <a className="btn bg-primary py-2 px-3" href="/">
                     <i className="bi bi-cart text-white" />
@@ -203,7 +202,7 @@ export default function AllProducts() {
                   alt=""
                 />
                 <h6 className="mb-3">vermicompost-organic-fertilizer</h6>
-                
+
                 {/* <div className="btn-action d-flex justify-content-center">
                   <a className="btn bg-primary py-2 px-3" href="/">
                     <i className="bi bi-cart text-white" />
@@ -213,7 +212,6 @@ export default function AllProducts() {
                   </a>
                 </div> */}
               </div>
-
             </div>
           </div>
         </div>
