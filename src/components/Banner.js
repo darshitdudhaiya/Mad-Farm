@@ -13,7 +13,7 @@ export default function Banner() {
             <div className="carousel-item active h-100">
               <img
                 className="w-100"
-                style={{height:"500px"}}
+                style={{ height: "500px" }}
                 src="img/banner1.jpeg"
                 alt="carousel-1"
               />
@@ -23,19 +23,13 @@ export default function Banner() {
                   <h1 className="display-1 text-white mb-md-4">
                     Organic Vegetables For Healthy Life
                   </h1>
-                  {/* <a href="/" className="btn btn-primary py-md-3 px-md-5 me-3">
-                      Explore
-                    </a>
-                    <a href="/" className="btn btn-secondary py-md-3 px-md-5">
-                      Contact
-                    </a> */}
                 </div>
               </div>
             </div>
             <div className="carousel-item">
               <img
                 className="w-100"
-                style={{height:"500px"}}
+                style={{ height: "500px" }}
                 src="img/banner2.jpeg"
                 alt="carousel-2"
               />
@@ -346,22 +340,26 @@ export default function Banner() {
           <div className="row g-5">
             <div className="col-lg-6">
               <div className="blog-item position-relative overflow-hidden">
-                <img className="img-fluid" src="img/milk-product-1.png" alt="" />
+                <img
+                  className="img-fluid"
+                  src="img/milk-product-1.png"
+                  alt=""
+                />
                 <a className="blog-overlay" href="/">
-                  <h4 className="text-white">
-                    Fresh Milk Products
-                  </h4>
+                  <h4 className="text-white">Fresh Milk Products</h4>
                   {/* <span className="text-white fw-bold">Jan 01, 2050</span> */}
                 </a>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="blog-item position-relative overflow-hidden">
-                <img className="img-fluid" src="img/milk-product-2.png" alt="" />
+                <img
+                  className="img-fluid"
+                  src="img/milk-product-2.png"
+                  alt=""
+                />
                 <a className="blog-overlay" href="/">
-                  <h4 className="text-white">
-                    Organic Vegetables
-                  </h4>
+                  <h4 className="text-white">Organic Vegetables</h4>
                   {/* <span className="text-white fw-bold">Jan 01, 2050</span> */}
                 </a>
               </div>
