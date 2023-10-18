@@ -39,12 +39,6 @@ export default function Banner() {
                   <h1 className="display-1 text-white mb-md-4">
                     Organic Fruits For Better Health
                   </h1>
-                  {/* <a href="/" className="btn btn-primary py-md-3 px-md-5 me-3">
-                    Explore
-                  </a>
-                  <a href="/" className="btn btn-secondary py-md-3 px-md-5">
-                    Contact
-                  </a> */}
                 </div>
               </div>
             </div>
